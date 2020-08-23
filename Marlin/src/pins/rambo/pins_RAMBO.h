@@ -133,7 +133,7 @@
 #define HEATER_BED_PIN                         3
 
 #ifndef FAN_PIN
-  #define FAN_PIN                              8
+  #define FAN_PIN                             45  // was 8, changing to 45 on 8/23/2020 for laser troubleshooting
 #endif
 #define FAN1_PIN                               6
 #define FAN2_PIN                               2
@@ -156,7 +156,7 @@
 //
 // M3/M4/M5 - Spindle/Laser Control
 //
-#define SPINDLE_LASER_PWM_PIN                 45  // Hardware PWM
+//#define SPINDLE_LASER_PWM_PIN                 45  // Hardware PWM
 #define SPINDLE_LASER_ENA_PIN                 31  // Pullup!
 #define SPINDLE_DIR_PIN                       32
 
